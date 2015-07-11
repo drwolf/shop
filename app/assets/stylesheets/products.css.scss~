@@ -1,3 +1,94 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/* START_HIGHLIGHT */
+.products {
+  background-color: #DCCFC8;
+  color: #474747;  
+  
+  h1 {
+    color: #3b2016;
+    font-size: 40px;
+    font-family: Arial;
+    margin: 40px 15px;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+
+  table tr td {
+    padding: 15px;
+    vertical-align: middle;   
+  }
+  
+  table tr td.list_actions {      
+      display: none;
+      
+  }
+  
+  table tr:hover td.list_actions {
+    display: block;    
+    vertical-align: middle; 
+  }
+ 
+  .list_image {
+    width:  129px;
+    height: 150px;
+    margin: 15px 5px;
+      -moz-box-shadow:    3px 3px 5px 6px #91847D;
+      -webkit-box-shadow: 3px 3px 5px 6px #91847D;
+      box-shadow:         3px 3px 5px 6px #91847D;    
+  }
+
+  .list_description {
+    width: 100%;
+    padding: 10px;
+
+    dl {
+      margin: 0;
+      padding: 0px 17px;
+    }
+
+    dt {
+      color:        #244;
+      font-weight:  bold;
+      font-size:    larger;
+      margin-bottom: 10px;
+      
+    }
+
+    dd {
+      margin: 0;
+      text-align: justify;
+      font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+  letter-spacing: 0.07em;
+  word-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 1.5em;
+    }
+  }
+
+  .list_actions {
+    font-size: 1.1em;    
+    text-decoration: none;
+    font-weight: bold;    
+    text-align:   right;
+    padding-left: 1em;
+    
+    a {
+      text-decoration: none;
+      color: #3b2016;
+    }   
+   
+  } 
+  
+  .list_line_even {
+    background:   #c4afa3;
+  }
+  .list_line_odd {
+    background:   #cfbcb2;
+  }
+}
+/* END_HIGHLIGHT */
+

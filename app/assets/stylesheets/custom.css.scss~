@@ -1,0 +1,67 @@
+@import "bootstrap";
+
+ 
+/* START_HIGHLIGHT */
+#banner {
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 0px;
+  box-shadow: 0px 5px 3px 5px #404040;
+  text-shadow: 0px 2px 5px #404040;
+  @include gradient-vertical(#333333, #9c9, -17%, 50%);
+  
+
+  img {
+    margin-top: -10px;
+    float: left;
+    
+  }
+}
+
+#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #f0f0f0;
+  font: bold smaller sans-serif;
+}
+
+#columns {
+  
+  @include gradient-horizontal(#434343, #8c8, -17%, 50%);
+  
+  
+
+  #main {
+    margin-left: 30em;
+    padding: 4em;
+    background: #DCCFC8;
+    box-shadow: inset 0px 2px 5px #404040;
+  }
+
+  #side {
+    float: left;
+    padding: 1em 2em;    
+    text-shadow: 0px 2px 5px #393939;
+    
+
+    ul {
+      padding: 10px 0 0 0;
+      li {
+        list-style: none;        
+        a {
+          color: #bfb;
+          font-size: small;
+        }        
+      }
+    }
+    ul li.time {
+          color: #FBF3D3;          
+        }
+  }
+}
+/* END_HIGHLIGHT */
+
